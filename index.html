@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<style>
+    table td,table th{
+    border: black 1px solid;
+    padding: 10px;
+    }
+
+
+
+</style>
+<table>
+    <thead>
+    <tr>
+        <th>
+            Название продукта
+        </th>
+        <th>
+            Количество
+        </th>
+        <th>
+            Белки
+        </th>
+        <th>
+            Жири
+        </th>
+        <th>
+            Углеводы
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            <select id="product">
+                <option value="1">apple</option>
+                <option value="2">grapefruit</option>
+                <option value="3">bananа</option>
+                <option value="4">orange</option>
+            </select>
+        </td>
+        <td>
+            <input type="number" id="amount">
+        </td>
+        <td>
+            <output id="b1"></output>
+        </td>
+        <td>
+            <output id="j1"></output>
+        </td>
+        <td>
+            <output id="u1"></output>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Aplle
+        </td>
+        <td>
+            200
+        </td>
+        <td>
+            4
+        </td>
+        <td>
+            9
+        </td>
+        <td>
+            4
+        </td>
+    </tr>
+    </tbody>
+</table>
+<form>
+    <input value="Рассчитать" onclick="calculate()" type="button">
+</form>
+</body>
+</html>
